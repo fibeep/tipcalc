@@ -1,0 +1,36 @@
+.left {
+    display: flex;
+    flex-direction: column;
+    border: gray 3px solid;
+    height: 250px;
+    width: 200px;
+    padding: 15px;
+    background-color: hsla(39, 100%, 50%, 0.4);
+}
+
+.left > input {
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.left > label {
+    font-size: x-large;
+}
+
+.box {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    border: gray 3px solid;
+    height: 250px;
+    width: 400px;
+    padding: 15px;
+    background-color: hsla(115, 100%, 50%, 0.4);
+}
+
+.right > * {
+    font-size: 40px;
+}
